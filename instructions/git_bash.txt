@@ -55,7 +55,11 @@
 # list files with details:
  ls -l
 
-# move files between folders
+# move files between folders:
  mv file_name folder_name
 
  example: mv git_bash.txt instructions/
+
+# Tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected:
+ git commit -a -m "commit message here"
+
