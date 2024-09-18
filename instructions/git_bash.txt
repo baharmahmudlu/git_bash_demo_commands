@@ -42,3 +42,15 @@
 
 # remove untracked files:
  git clean .f file_name
+
+# create new folder:
+ mkdir folder_name
+
+# go one step back:
+ cd ..
+
+# list directories:
+ dir
+
+# list files with details:
+ ls -l

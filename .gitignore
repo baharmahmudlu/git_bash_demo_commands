@@ -1,0 +1,9 @@
+file.log
+
+# hide files with the extension .db, .log
+*.log
+*.db
+
+# hide directories with the names target or bin
+/target
+/bin
