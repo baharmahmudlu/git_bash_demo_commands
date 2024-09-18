@@ -72,4 +72,27 @@
 # to restore file with committed logs:
  git restore file_name
 
+# create file:
+ touch file_name
+
+# write to file:
+ echo "msg here" >> file_name
+
+# tag commit:
+ git tag tag_name
+
+# list tags:
+ git tag --list
+
+# delete locally created branch:
+ git branch -d branch_name
+
+# delete branch from remote:
+ git push -d <remote_name> <branch_name>
+
+# rebase main branch to other branches:
+ git rebase main
+
+# push rebased commits to branch:
+ git push origin HEAD --force
 
