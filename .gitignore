@@ -5,5 +5,5 @@ file.log
 *.db
 
 # hide directories with the names target or bin
-/target
-/bin
+target/
+bin/

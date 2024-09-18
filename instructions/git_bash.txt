@@ -63,3 +63,13 @@
 # Tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected:
  git commit -a -m "commit message here"
 
+# to show hidden files in gitignore
+ ls -a
+
+# to clear/empty file
+ > file_name
+
+# to restore file with committed logs:
+ git restore file_name
+
+
