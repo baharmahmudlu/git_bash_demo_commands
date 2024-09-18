@@ -1,0 +1,41 @@
+*add new file txt and edit:
+ vim file_name
+ 
+ and to quit press esc, then :wq!
+
+*add new branch:
+ git checkout -b branch_name
+
+*switch between branches:
+ git checkout branch_name
+
+*list branches
+ git branch
+
+*write and quit from file:
+ :wq!
+
+*add changes:
+ git add file_name
+
+*add commit:
+ git commit -m enter_commit_name
+
+*push changes:
+ git push
+
+*merge branch to main:
+ git pull origin branch_name_from_merge --allow-unrelated-histories
+ or 
+ git merge
+
+*list branch logs:
+ git log
+
+*status:
+ git status
+
+*write to file:
+ nano file_name
+ 
+ and to write press ctrl+X
