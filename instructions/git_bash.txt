@@ -54,3 +54,8 @@
 
 # list files with details:
  ls -l
+
+# move files between folders
+ mv file_name folder_name
+
+ example: mv git_bash.txt instructions/
