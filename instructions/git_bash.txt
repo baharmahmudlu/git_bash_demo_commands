@@ -96,3 +96,16 @@
 # push rebased commits to branch:
  git push origin HEAD --force
 
+# see the versions of remote repo
+ git remote -v
+
+# remove the version of remote repo
+ git remote remove remote_name
+
+ example: git remote remove origin
+
+# add new remote repo
+ git remote add remote_name "ssh_key"
+
+ example: git remote add destination "git@github.com:baharmahmudlu/learn-git-backup.git"
+
