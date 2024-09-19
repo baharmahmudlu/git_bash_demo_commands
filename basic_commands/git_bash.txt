@@ -84,6 +84,17 @@
 # list tags:
  git tag --list
 
+# push tags to remote
+ git push --tags
+
+# check out from tag
+ git checkout tag_name
+
+# remove tag from remote
+ git push --delete remote_name tag_name
+
+ example: git push --delete destination ver1
+
 # delete locally created branch:
  git branch -d branch_name
 
