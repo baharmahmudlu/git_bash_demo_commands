@@ -120,3 +120,9 @@
 
  example: git remote add destination "git@github.com:baharmahmudlu/learn-git-backup.git"
 
+# remove last commit from locally and remote
+ git reset HEAD~ # remove commit locally
+ git push origin +HEAD # force-push the new HEAD commit
+
+# remove last commit from remote but keep in locally
+ git push origin +HEAD^:"$name_of_your_branch" # e.g. +HEAD^:master
