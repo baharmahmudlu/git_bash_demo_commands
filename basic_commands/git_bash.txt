@@ -126,3 +126,9 @@
 
 # remove last commit from remote but keep in locally
  git push origin +HEAD^:"$name_of_your_branch" # e.g. +HEAD^:master
+
+# get remote URL of the project
+git config --get remote.origin.url
+
+# get full details of the remote of the project
+git remote show origin
