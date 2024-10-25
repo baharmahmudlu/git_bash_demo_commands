@@ -46,6 +46,9 @@
 # create new folder:
  mkdir folder_name
 
+# rename folder name 
+ mv old-name-dir/ new-name-dir
+
 # go one step back:
  cd ..
 
